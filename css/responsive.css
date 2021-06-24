@@ -330,8 +330,8 @@
     .pricing-one__single {
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .testimonials-one__button-block {
         position: relative;
