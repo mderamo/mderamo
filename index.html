@@ -23,10 +23,11 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/estilos.css">
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
                         <a class="navbar-brand" href="index.html">
-                            <img src="imagenes/logocraftkids.png" class="main-logo" width="150" alt="logo craft kids" />
+                            <img src="imagenes/logocraftkids.png" class="main-logo" width="120" alt="Awesome Image" />
                         </a>
                         <button class="menu-toggler" data-target=".main-navigation">
                             <span class="fa fa-bars"></span>
@@ -53,30 +54,27 @@
                                 <a href="#home">Inicio</a>
                             </li>
                             <li class="scrollToLink">
-                                <a href="#mision">Misión Craft</a>
+                                <a href="#services">Misión Craft</a>
                             </li>
-                            
                             <li class="scrollToLink">
                                 <a href="#pricing">Combos</a>
                                  <ul class="sub-menu">
-                                    <li><a href="blog-details.html">Explorador Inicial</a></li>
-                                     <!--
-                                    <li><a href="blog-details.html">Explorador Inicial</a></li>
-                                    <li><a href="blog-details.html">Experto Aventurero</a></li>
-                                    -->
+                                    <li><a href="blog-details.html">Explorador Inicial</a>
                                 </ul><!-- /.sub-menu -->
                             </li>
-                            
                             <li class="scrollToLink">
-                                <a href="#testimonials">Familias</a> 
-                               </li>
+                                <a href="#testimonials">Familias</a>                                
+                            </li>
+                            <li class="scrollToLink">
+                                <a href="#equipo">Equipo</a>
+                            </li>
                             <li class="scrollToLink">
                                 <a href="#contact">Contacto</a>
                             </li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                     <div class="right-side-box">
-                        <a href="#suscribirse" class="thm-btn header-one__btn">Suscribirse</a>
+                        <a href="blog-details.html" class="thm-btn header-one__btn">Suscribirse</a>
                     </div><!-- /.right-side-box -->
                 </div>
                 <!-- /.container -->
@@ -98,11 +96,11 @@
             <!--
             <img id= "nina" src="imagenes/nena3.png" class="banner-one__moc" alt="niña">-->
             
-            <img id= "nina" src="imagenes/nenaalcorte.png" class="banner-one__moc" alt="niña">
+            <!--
+            <img src="imagenes/nenaalcorte.png" class="nina" alt="niña"> -->
             
-            
-            <div class="container">
-                <div class="row">
+            <div class="hero">
+                <div class="titulin">
                     <div class="col-xl-6">
                         <div class="banner-one__content">
                             <p class="banner-one__tag-line">De 2 a 10 años / en familia</p><!-- /.banner-one__tag-line -->
@@ -115,6 +113,11 @@
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.banner-one -->
+        
+        <!--
+        <div class="separador"> 
+        <img src="imagenes/trampix.png">
+        </div>-->
 
         <section class="service-one" id="services">
             <div class="container">
@@ -173,7 +176,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="cta-three__image">
-                            <img src="imagenes/prueba4.png" alt="Caja mágica"/>
+                            <img src="imagenes/idea2.png" alt="Caja mágica"/>
                         </div><!-- /.cta-three__image -->
                     </div><!-- /.col-lg-6 -->
                     <div class="col-lg-6">
@@ -187,7 +190,7 @@
                                 <li class="cta-three__list-item"><i class="fa fa-check"></i>Desarrollo creativo</li><!-- /.cta-three__list-item -->
                                 <li class="cta-three__list-item"><i class="fa fa-check"></i>Desde la comodidad de tu hogar</li><!-- /.cta-three__list-item -->
                             </ul><!-- /.cta-three__list -->
-                            <a href="" class="thm-btn cta-three__btn">Quiero ser parte</a>
+                            <a href="#suscribirse" class="thm-btn cta-three__btn">Quiero ser parte</a>
                         </div><!-- /.cta-three__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -213,7 +216,7 @@
                             </ul>
                             <h3 class="pricing-one__amount">$2.100</h3>
                             <span> Compra individual</span>
-                            <a href="#" class="thm-btn pricing-one__btn">Lo quiero!</a>
+                            <a href="blog-details.html" class="thm-btn pricing-one__btn">Lo quiero!</a>
                             <span class="pricing-one__tag-line">Envío gratis</span>
                         </div><!-- /.pricing-one__single -->
                     </div><!-- /.col-lg-4 -->
@@ -239,7 +242,7 @@
                                 <li class="pricing-one__list-item">Según edad y gustos</li>
                             </ul> -->
                         
-                            <a href="#" class="thm-btn pricing-one__btn">Lo quiero!</a>
+                            <a href="blog-details.html" class="thm-btn pricing-one__btn">Lo quiero!</a>
                             <span class="pricing-one__tag-line">Envío gratis</span>
                         </div><!-- /.pricing-one__single -->
                     </div><!-- /.col-lg-4 -->
@@ -265,7 +268,7 @@
                                 <li class="pricing-one__list-item">Contenido variado</li>
                                 <li class="pricing-one__list-item">Según edad y gustos</li>
                             </ul><!-- /.pricing-one__list -->
-                            <a href="#" class="thm-btn pricing-one__btn">Lo quiero!</a>
+                            <a href="blog-details.html" class="thm-btn pricing-one__btn">Lo quiero!</a>
                             <span class="pricing-one__tag-line">Envío gratis</span>
                         </div><!-- /.pricing-one__single -->
                         
@@ -431,17 +434,17 @@
   </script>
 </section>
         
-    <section class="equipo"> 
+    <section class="equipo" id="equipo"> 
      
         <h2>Nuestro equipo</h2>
         
         
-       <figure> <img src="imagenes/macarena.png" alt="Macarena Paez"> <figcaption> <h3>Macarena Paez</h3>
+       <figure> <img src="imagenes/equipo1.png" alt="Macarena Paez"> <figcaption> <h3>Macarena Paez</h3>
                     <h5> Co fundadora Craft Kids Club</h5> 
                     <p> Mamá de Clara</p>
         </figcaption> </figure>
         
-        <figure> <img src="imagenes/romina.png" alt="Romina Díaz"> <figcaption> <h3>Romina Díaz</h3>
+        <figure> <img src="imagenes/equipo2.png" alt="Romina Díaz"> <figcaption> <h3>Romina Díaz</h3>
                     <h5> Co fundadora Craft Kids Club</h5> 
                     <p> Mamá de Lucas</p> </figcaption> </figure>
     
@@ -449,7 +452,7 @@
     
     
     
-        <section class="brand-one">
+        <section class="brand-one_detalle">
             <div class="container">
                 <div class="brand-one__carousel owl-theme owl-carousel">
                     <div class="item">
